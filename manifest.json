@@ -1,0 +1,18 @@
+{
+    "version": "1.0",
+    "manifest_version": 3,
+    "name": "Chatbot Manager Search Activator",
+    "description": "Unlock the character search functionality of Chatbot Manager",
+    "icons": {
+        "16": "icons/icon_16.png",
+        "48": "icons/icon_48.png",
+        "128": "icons/icon_128.png"
+    },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": true
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
